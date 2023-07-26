@@ -1,0 +1,56 @@
+.Questions {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.QuestionsHeader {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    width: auto;
+    margin: 0 0 0 10px;
+}
+
+.QuestionList {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 0;
+    flex-direction: column;
+    overflow: auto;
+    height: 20rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.QuestionItem {
+    display: inline;
+    background: #1a1a1a;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 4px 2px;
+    text-align: center;
+}
+
+p {
+    margin: 3px;
+}
+
